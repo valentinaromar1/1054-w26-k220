@@ -1,0 +1,43 @@
+html {
+     border-width: 5em solid white;
+
+
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    border: 5px  solid black;
+   
+    font-family: "Bebas Neue", sans-serif;
+    display: inline-block;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5em;
+    text-align: center;
+    text-transform: bold;
+    text-transform: uppercase;
+
+}
+
+h4{
+    font-size: 25px;
+    text-transform: bold;
+}
+header > p {
+    font-size: 2em;
+    text-align: center;
+    text-transform: bold;
+
+}
+
+main {
+  column-count: 3;
+
+}
+
