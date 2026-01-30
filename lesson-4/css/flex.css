@@ -15,13 +15,13 @@ body {
 	border: 5px dotted red;
 	background: #FCC;
 	/* STEP 2: set width of #container to 8% of body */
-	
+	width: 8%;
 	/* STEP 3: center the entire layout with auto left and right margins */
 	
 	/* STEP 4a: Set the flex container for the whole page */
 	
 	/* STEP 4b: Set the flex-direction to column for the #container */
-	
+	flex-direction: column;
 }
 
 header {
@@ -48,7 +48,7 @@ main {
 	/* STEP 5a: Set the flex container for the <main> element */
 	
 	/* STEP 5b: Set the flex-direction to row for the <main> */
-	
+	flex-direction: row;
 	/* STEP 7: Modify the align-items property on the <main> (default is stretch - see https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-align-items for more */
 	
 }
@@ -71,7 +71,7 @@ main > aside {
 	border: 5px dotted purple;
 	background: #C9C;
 	/* STEP 6c: Set the flex-basis value to 20% */
-	
+	flex-basis: 20%;
 	/* STEP 6d: Proceed to https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flex to learn about flex-basis, flex-grow, and flex-shrink */
 }
 
