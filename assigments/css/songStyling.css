@@ -1,13 +1,19 @@
-
+html{
+    background-color: rgb(22, 22, 72);
+    
+}
 
 body{
     text-align: center;
-    border: 5em solid white;
+    border: 5em solid rgb(118, 115, 115);
+    color: white;
+    
 }
 
 section{
-    border: 1em dashed rgb(190, 143, 90);
+    border: 6em solid  rgb(22, 22, 72);
     font-family: 'Courier New', Courier, monospace;
+    text-spacing-trim: normal;
 
 }
 
@@ -16,6 +22,7 @@ h1{
 }
 
 h2, h3, h4{
+    border-top: 5px dashed white;
     font-family: Georgia, serif;
     border-bottom: 5em;
 }
