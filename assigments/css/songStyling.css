@@ -2,16 +2,20 @@
 
 body{
     text-align: center;
+    border: 5em solid white;
 }
 
 section{
+    border: 1em dashed rgb(190, 143, 90);
     font-family: 'Courier New', Courier, monospace;
+
 }
 
 h1{
-    font-family: ;
+    font-family: Georgia, serif;
 }
 
 h2, h3, h4{
-    font-family: ;
+    font-family: Georgia, serif;
+    border-bottom: 5em;
 }
