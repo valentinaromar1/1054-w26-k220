@@ -6,7 +6,7 @@ box-sizing: border-box;
 }
 main{
     display: grid;
-	grid-template-areas: none
+	grid-template-areas: 
                         "model live"
                         "model style"
                         "aside health";
@@ -18,13 +18,15 @@ header > h1{
    
 }
 
-figure{
+aside:nth-of-type(1){
     grid-area: model;
 }
+
 aside:nth-of-type(2){  
     border:solid 2px orange ;
     margin-left: 40px;
     width: 300px;
+    height: 300px;
     box-shadow: 5px 3px 5px rgb(151, 151, 151);
     grid-area: aside;
 }
