@@ -4,9 +4,11 @@ box-sizing: border-box;
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
-section{
-    float: right;
+main{
+	grid-template-areas: none
+		"header header header"
+		"subnav content advert"
+		"footer footer footer";
 }
 header > h1{
     color: orange;
@@ -19,7 +21,17 @@ aside:nth-of-type(2){
     width: 300px;
     box-shadow: 5px 3px 5px rgb(151, 151, 151);
 }
+aside{
+    grid-area: subnav;
+}
+section{
+    grid-area: advert;
+    width: 600px;
+}
 
+section li p, section li h3{
+    display: inline;
+}
 /*the colored text within "live well"*/
 
 section:nth-of-type(1) h3 {
