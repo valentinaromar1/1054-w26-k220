@@ -5,27 +5,31 @@ box-sizing: border-box;
     box-sizing: inherit;
 }
 main{
+    display: grid;
 	grid-template-areas: none
-		"header header header"
-		"subnav content advert"
-		"footer footer footer";
+                        "model live"
+                        "model style"
+                        "aside health";
+    grid-template-columns: 40% 60%;                 
+
 }
 header > h1{
     color: orange;
    
 }
 
+figure{
+    grid-area: model;
+}
 aside:nth-of-type(2){  
     border:solid 2px orange ;
     margin-left: 40px;
     width: 300px;
     box-shadow: 5px 3px 5px rgb(151, 151, 151);
+    grid-area: aside;
 }
-aside{
-    grid-area: subnav;
-}
+
 section{
-    grid-area: advert;
     width: 600px;
 }
 
@@ -37,6 +41,7 @@ section li p, section li h3{
 section:nth-of-type(1) h3 {
     color:rgb(138, 201, 45);
     text-transform: uppercase;
+    grid-area:  live;
 }
 
 /*the colored text within "style"*/
@@ -44,6 +49,7 @@ section:nth-of-type(1) h3 {
 section:nth-of-type(2) h3 {
     color: rgb(187, 14, 124);
     text-transform: uppercase;
+      grid-area:  style;
 }
 
 
@@ -52,4 +58,5 @@ section:nth-of-type(2) h3 {
 section:nth-of-type(3) h3 {
     color:rgb(55, 197, 219);
     text-transform: uppercase;
+    grid-area:  health;
 }
