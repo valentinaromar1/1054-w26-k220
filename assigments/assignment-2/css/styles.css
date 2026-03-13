@@ -18,6 +18,12 @@ main{
 header > h1{
     color: orange;
     font-size: 100px;
+    font-family: Courier New, monospace;
+}
+
+header p{
+    top: 0%;
+    z-index: 1000;
 }
 
 aside:nth-of-type(1){
@@ -44,19 +50,19 @@ section li p, section li h3{
 /*changes the size of the "live well" "style" and "health" and the border top*/
 
 section:nth-of-type(1) h2 {
-    border-top: solid 10px rgb(138, 201, 45);
+    border-top: solid 13px rgb(138, 201, 45);
     font-size: 37px;
 }
 section:nth-of-type(2) h2 {
-    border-top: solid 10px rgb(138, 201, 45);
+    border-top: solid 13px rgb(187, 14, 124);
     font-size: 37px;
 }
 section:nth-of-type(3) h2 {
-    border-top: solid 10px rgb(138, 201, 45);
+    border-top: solid 13px rgb(55, 197, 219);
     font-size: 37px;
 }
-/*the colored text within "live well"*/
 
+/*the colored text within "live well"*/
 section:nth-of-type(1) h3 {
     color:rgb(138, 201, 45);
     text-transform: uppercase;
@@ -64,18 +70,20 @@ section:nth-of-type(1) h3 {
 }
 
 /*the colored text within "style"*/
-
 section:nth-of-type(2) h3 {
     color: rgb(187, 14, 124);
     text-transform: uppercase;
       grid-area:  style;
 }
 
-
 /*the colored text within "health"*/
-
 section:nth-of-type(3) h3 {
     color:rgb(55, 197, 219);
     text-transform: uppercase;
     grid-area:  health;
+}
+
+aside h2{
+    font-size: 30px;
+  
 }
