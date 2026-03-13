@@ -4,6 +4,7 @@ box-sizing: border-box;
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 main{
     display: grid;
 	grid-template-areas: 
@@ -13,9 +14,10 @@ main{
     grid-template-columns: 40% 60%;                 
 
 }
+
 header > h1{
     color: orange;
-   
+    font-size: 100px;
 }
 
 aside:nth-of-type(1){
@@ -37,6 +39,21 @@ section{
 
 section li p, section li h3{
     display: inline;
+}
+
+/*changes the size of the "live well" "style" and "health" and the border top*/
+
+section:nth-of-type(1) h2 {
+    border-top: solid 10px rgb(138, 201, 45);
+    font-size: 37px;
+}
+section:nth-of-type(2) h2 {
+    border-top: solid 10px rgb(138, 201, 45);
+    font-size: 37px;
+}
+section:nth-of-type(3) h2 {
+    border-top: solid 10px rgb(138, 201, 45);
+    font-size: 37px;
 }
 /*the colored text within "live well"*/
 
